@@ -1,0 +1,111 @@
+.wrapper{
+  min-width: 296px;
+}
+
+.assignment-main{
+  max-width: calc(100vw - 296px);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
+
+  .dropdown span:last-child {
+    color: $success;
+  }
+
+  .left-sec {
+    .sec-header span:last-child {
+      color: $success;
+    }
+    .maintitle span {
+        color: $gray-600;
+    }
+    .list-group-item  {
+      font-size: 12px;
+      &:hover{
+        background-color:#F8F9FA;
+      }
+      }
+  
+    .h5{
+      font-weight: 900;
+    }
+    
+  }
+
+  .right-sec{
+    .sec-header span{
+      font-size: 12px;
+      color: $gray-600;
+      line-height: 2;
+    }
+    .card-header{
+      h5{
+        font-weight: 900;
+      }
+    }
+    .otherUserPic{
+      max-width: 40px;
+      max-height: 40px;
+      min-width: 40px;
+      min-height: 40px;
+      background-image: url("../images/emilywang.jpeg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    
+    .card-title{
+      font-weight: 900;
+    }
+    .card-subtitle{
+      font-size: 12px;
+      color: $gray-600;
+      font-weight: 600;
+    }
+    .card-text{
+      font-size: 14px;
+      span{
+        font-size: 14px;
+        font-weight: 900;
+        color: $success;
+      }
+    }
+    .txt{
+      input[type="file"] {
+          display: none;
+        }
+      .uploadStyle{
+        width: 176px;
+        background-color: #F8F9FA;
+        border: 1px solid #CED4DA;
+        border-radius: 3px;
+        padding: 12px;
+        span:last-child{
+          font-weight: 900;
+        }
+      }
+    }
+    .userPic{
+      max-width: 40px;
+      max-height: 40px;
+      min-width: 40px;
+      min-height: 40px;
+      background-image: url("../images/andychen.jpeg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    
+    .replyAssignment{
+      width: 526px;
+      .reply-form-textarea{
+        resize: none;
+      }
+      .reply-form-label span {
+        color: $gray-400;
+      }
+    } 
+  }
+  
+  
+}

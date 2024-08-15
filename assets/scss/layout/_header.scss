@@ -1,0 +1,44 @@
+.nav-aside {
+    width: 296px;
+    height: 100vh;
+    background-color: #F8F9FA;
+  .navibar{
+    height: 100%;
+    padding-top: 32px;
+  }
+  .nav-item {
+    span:last-child {
+        font-weight: 900;
+      }
+
+    border-left: 4px solid white;
+    &:hover {
+        border-left: 4px solid $success;
+        color: $success;
+        cursor: pointer;
+      }
+
+    
+  }
+  .account{
+    margin-top: auto;
+  }
+  .userPic {
+    width: 48px;
+    height: 48px;
+    background-image: url("../images/andychen.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .userName{
+    font-weight: 900;
+  }
+  
+  .userMail{
+    color: $gray-600;
+    font-size: 14px;
+  }
+  
+}

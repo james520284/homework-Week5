@@ -1,0 +1,37 @@
+.container-side{
+    max-width: 984px;
+    padding: 0 32px;
+    
+}
+
+.w-100{
+    width: 100%;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mt-auto{
+    margin-top: auto;
+}
+
+// margin迴圈
+$max: 100;
+@for $i from 0 through $max {
+    .mb-#{$i} {
+        margin-bottom: $i * 4px;
+    }
+}
+@for $i from 0 through $max {
+    .mr-#{$i} {
+        margin-right: $i * 4px;
+    }
+}
+
+// padding迴圈
+$max: 100;
+
+@for $i from 0 through $max {
+    .pl-#{$i} {
+        padding-left: $i * 4px;
+    }
+}

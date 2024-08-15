@@ -1,0 +1,68 @@
+.wrapper {
+    min-width: 296px;
+}
+
+.admin-main{
+    max-width: calc(100vw - 296px);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .addBtn span:last-child {
+        font-weight: 600;
+        &:hover {
+            color: $success;
+        }
+    }
+
+    .table{
+        width: calc(80vw - 296px);
+        .idSort-ic {
+            font-size: 16px;
+            color: $success;
+        }
+    }
+    .editBtn{
+        z-index: 1;
+    }
+    .viewBtn:hover,
+    .editBtn:hover {
+        color: $success;
+    }
+
+    .page-item:nth-child(2){
+        background-color: $success;
+    }
+    .page-link:hover{
+        background-color: $success;
+        color: $light;
+    }
+    #addModal,
+    #editModal{
+        .modal-title{
+            font-weight: 900;
+        }
+        .subtitle {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    .viewcard{
+        padding-top: 12px;
+        padding-left: 24px;
+
+        .headshot{
+            width: 160px;
+            height: 140px;
+            background-image: url(../images/emir.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            &-wrap{
+                top: 16px;
+                
+                
+            }
+        }
+    }
+    
+}
